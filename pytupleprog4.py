@@ -1,0 +1,5 @@
+a = (10, 20, 10, 30, 40, 60, 20, 30, 10, 90)
+print("Given Tuple:-")
+print(a)
+x = int(input("Enter the data of which the occurence is to be calculated: "))
+print(f"Ocuurence of {x} in the tuple is: {a.count(x)}")
